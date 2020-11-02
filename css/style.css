@@ -1,0 +1,268 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+}
+img{
+    max-width: 100%;
+}
+li{
+    list-style: none;
+}
+a, a:hover{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.container{
+    width: 1140px;
+    margin: auto;
+    /* align-items: center; */
+}
+.col-3{
+    width: 25%;
+    padding: 15px;
+}
+.col-4{
+    width: 33.33%;
+    padding: 15px;
+}
+.col-5{
+    width: 41.66%;
+    padding: 15px;
+}
+.col-7{
+    width: 58.33%;
+    padding: 15px;
+}
+h1{
+    font-size: 50px;
+    line-height: 1.1;
+    margin: 45px 0;
+}
+h3{
+    font-size: 22px;
+    margin: 5px 0px 10px;
+    color: #413960;
+}
+h4{
+    font-size: 16px;
+    font-weight: 400;
+    color: #FB6C3B;
+} 
+p{
+    font-size: 16px;
+    color: #413960;
+    margin-bottom: 40px;
+} 
+.title{
+    text-align: center;
+    padding: 0 0 35px;
+    }
+h2{
+    font-size: 35px;
+    color: #413960;
+}
+.pad-y{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/**********banner-section********** */
+header{
+    padding: 15px;
+}
+.logo{
+    width: 15%;
+    padding: 15px;
+}
+.logo a{}
+.logo a img{}
+nav{
+    width: 85%;
+    padding: 15px;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-items: center;
+} 
+nav ul li a{
+    font-size: 15px;
+    padding: 10px 20px;
+    display: block;
+    color: #393C39;
+    border-radius: 30px;
+    margin: 0px 2px;
+    transition: .3s;
+}
+nav ul li a:hover{
+    background: #21B573;
+    color: #fff;
+}
+nav ul li .btn{
+    background: #21B573;
+    color: #fff; 
+}
+.banner-section{
+    background: #F0FFF0;
+}
+.banner-content{
+    width: 45%;
+    padding: 15px;
+}
+.banner-content h1 span{
+    color: #21B573;
+    margin: 20px 0px;
+}
+
+.banner-img{
+    width: 55%;
+    padding: 15px 50px;
+}
+.banner-content .btn{ 
+    font-size: 16px; 
+    padding: 12px 42px;  
+    border-radius: 30px; 
+    background: #21B573; 
+    color: #fff; 
+    transition: .3s;
+}
+/**********feature-section********** */
+
+.feature-section{
+    padding: 30px 0;
+}
+.feature{
+    padding: 45px 30px;
+    text-align: center;
+    background: #F8FFFB;
+    transition: .3s;
+    border-radius: 15px;
+}
+.feature:hover{
+    
+background: #fff;
+    
+box-shadow: 0px 10px 25px #0000001f;
+}
+.feature p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+.feature img{
+    height: -7%;
+    height: 65px;
+}
+
+
+/**********courses-section********** */
+.courses-section{
+
+padding: 20px 0px;
+}
+.courses-inner{
+    padding: 20px;
+    box-shadow: -1px 3px 25px #0000001f;
+    border-radius: 20px;
+}
+.courses-inner img{}
+.courses-inner p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.courses-inner .btn{
+    background: #21B573;
+    color: #fff;
+    font-size: 15px;
+    padding: 6px 18px;
+    border-radius: 30px;
+    margin: 0px 2px;
+    transition: .3s;
+    display: inline-block;
+    margin-bottom: 35px;
+}
+.courses-inner ul{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.courses-inner ul li{
+    font-size: 15px;
+    color: #413960;
+    margin-bottom: 10px;
+}
+.courses-inner ul li i{
+    margin-right: 10px;
+}
+/**********testimonial-section********** */
+.testimonial{
+    padding: 40px 0 45px;
+}
+.testimonial .flex{
+    justify-content: center;
+    align-items: center;
+}
+.client-image{
+    width: 15%;
+    padding: 15px;
+}
+.client-review{
+    width: 64%;
+    padding: 15px;
+}
+.client-review p{
+    font-size: 18px;
+    color: #000;
+}
+
+/**********footer-section********** */
+footer{
+    background: #282531;
+    padding: 30px 0;
+}
+footer p{
+    color: #fff;
+    font-size: 15px;
+    margin: 0px;
+    padding: 20px 15px;
+}
+footer ul {}
+footer ul li {
+    padding: 5px 0;
+}
+footer ul li strong{
+    color: #fff;
+}
+footer ul li a{
+    color: #fff;
+    font-size: 14px;
+}
+footer ul li a:hover{
+    color: #21B573; 
+}
+.copyright{
+    text-align: center;
+}
+.copyright p{
+    color: #fff;
+    font-size: 15px;
+    margin: 0px;
+    padding: 35px 0 0;
+}
+.copyright p span{
+    color: #21B573;
+}
+
+
+
