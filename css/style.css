@@ -84,9 +84,7 @@ header{
 .logo{
     width: 15%;
     padding: 15px;
-}
-.logo a{}
-.logo a img{}
+}  
 nav{
     width: 85%;
     padding: 15px;
@@ -175,8 +173,7 @@ padding: 20px 0px;
     padding: 20px;
     box-shadow: -1px 3px 25px #0000001f;
     border-radius: 20px;
-}
-.courses-inner img{}
+} 
 .courses-inner p{
     font-size: 15px;
     margin-bottom: 20px;
@@ -236,8 +233,7 @@ footer p{
     font-size: 15px;
     margin: 0px;
     padding: 20px 15px;
-}
-footer ul {}
+} 
 footer ul li {
     padding: 5px 0;
 }
